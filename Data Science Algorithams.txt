@@ -1,0 +1,56 @@
+Regression - Linear Regression
+			
+
+Classification - 
+		Naive Bayes
+		Support Vector Machine (SVM)
+		Decision Trees
+		Random Forest
+		Logistic Regression
+
+
+Recommonding Relevant products to a user:
+	Colloborating Filtering
+		Alternative Least Squares
+		Nearest Neighbour model
+	Association Rules:
+		Content Based Filtering
+		
+Clustering:
+	K-Means
+	Hierarchial Clustering
+	Density-based Clustering
+	Distribution-based Clustering
+
+
+Represent Data:
+--------------
+	Data Munging:
+			Most data requires heavy duty pre-processing like identifying and accounting for missing data values, recognizing and fixing corrupt data.
+		
+	Feature Extraction:
+			Data is oftern unstructured and semantically complex
+			Natural Language Processing - is used for Text
+			Image and Video processing 
+			
+	Feature Engineering:
+			Feature Engineering is an informal field, we may need to construct more relvant features from a raw set of features.
+	
+	Dimensionality  Reduction: Dimensionality reduction refers to techniques that reduce the number of input variables in a dataset.
+
+
+
+Model Seleciton:
+----------------
+	Hyper Parameter Tuning
+	Cross Validation
+	Ensembling
+
+
+Chi2 is a measure of dependency between variables - use this relationship to determine the most relevant features for classification
+
+Use the ANOVA F-value as a measure of dependency - use this relationship to determine the most relevant features for classification
+
+Use Chi-Square Tests when every variable you're working with is categorical. Use ANOVA when you have at least one categorical variable and one continuous dependent variable.
+
+Recursive feature Elimination selects features by recursively considering smaller subsets of features by pruning the least important feature at each step.
