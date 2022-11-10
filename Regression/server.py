@@ -22,4 +22,7 @@ def hello_world():
 
 if __name__ == '__main__':
    app.run(host="localhost", port=int("50018"))
-
+   
+   
+   # To test in broweser 
+   #http://localhost:50018/admin?X=10
